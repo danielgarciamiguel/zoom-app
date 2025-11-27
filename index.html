@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Reminder App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Welcome to Record Reminder!</h1>
+        <p>This app will remind you to record your Zoom meetings.</p>
+        <div id="recordReminderModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>Record This Meeting! 🔴</h2>
+                <p>Don't forget to start the recording for this call.</p>
+                <p>Click the "Record" button in your Zoom toolbar.</p>
+                <button id="understoodButton">Understood!</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://appssdk.zoom.us/sdk.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
