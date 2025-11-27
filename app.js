@@ -31,10 +31,7 @@ window.addEventListener('click', (event) => {
 
 // Initialize the Zoom Apps SDK
 ZoomMtg.config({
-    // Replace with your actual Client ID from the Zoom App Marketplace
-    // You MUST get this from your created Zoom App under the "App Credentials" tab.
     clientId: "iCOxHE_VRKGWiAmRxlFnxw", 
-    // Other configuration options can go here if needed
 })
 .then(() => {
     console.log("Zoom Apps SDK initialized successfully.");
